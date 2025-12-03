@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;}
+
+h1{
+    color: orange;
+    text-align: center;
+    
+}
+.reduire{
+    font-size: 20px;
+    color: rgb(173, 167, 167);
+    position: relative;
+    top: -20px;
+}
+body {
+    height: 100vh;
+    background-image: url(image/background.jpg);
+    background-blend-mode: overlay;
+    background-color: #0005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+.ici{
+    margin-top: 4%;
+    font-size: clamp(0.5rem,2vw,0.8rem);
+}
+#c2{
+    margin-top: 1rem;
+}
+
+h1{
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+
+
+.valider{
+    width: 100%;
+    height: 2rem;
+font-size: large;
+font-weight: bold;
+    align-self: center;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    text-shadow: 0 0 1px rgb(81, 80, 80);
+    background-color: orange;
+    cursor: pointer;
+}
+.validey {
+    width: 6rem;
+    height: 2rem;
+    font-weight: 400;
+    display: block;
+    margin:  auto;
+    margin-top: 2vh;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px rgb(81, 80, 80);
+    background-color: rgb(29, 150, 51);
+    border-radius: 999px;
+        outline: none;
+        border: none;
+}
+.annuler {
+    width: 6rem;
+    height: 2rem;
+    font-size: medium;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px rgb(81, 80, 80);
+    background-color:orange;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+form {
+    width: 60%;
+    display: block;
+    margin: auto;
+    z-index: 100;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(62, 59, 59, 0.333);
+    padding: 5vh 4vh;
+}
+
+.champ{
+display: block;
+outline-color: orange;
+width: 100%;
+padding: 1vh 2vh;
+border: none;
+box-shadow: 0 0 2px #0005;
+border-radius: 4px;
+}
+label {
+    display: block;
+    font-size: clamp(2vh,20px,3vh);
+    padding: 1vh 0;
+    text-shadow: 0 0 2px #0005;
+}
+
+.select2 option{
+    color: black;
+}
+
+
+.box{
+    width: 48%;
+    height: 25vh;
+    padding:  0;
+    background-color: rgba(120, 120, 118, 0.349);
+    background-blend-mode: overlay;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    /* border: solid 0.01px rgb(154, 154, 154); */
+ 
+}
+.produit{
+    display: block;
+    margin:2% auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.container_box{
+    width: 80vw;
+    padding: 2vh 0;
+  
+}
+   .description{
+   width: 100%;
+    height: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+   
+   }
+   #description{
+    display: block;
+   padding: 2vh;
+
+   }
+   #desk{
+  
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    
+   }
+  
+#box3{
+display: block;
+margin: auto;
+width: 70%;
+height: 28vh;
+display: flex;
+align-items: center;
+}
+
+
+
+.lien{
+    text-decoration: none;
+    color: orange;
+}
+.cadre2{
+   
+    box-shadow: 1px -1px 2px rgb(48, 48, 48);
+    border-left: 0px;
+    border-bottom: 0px;
+    padding: 40px;
+    height: 65vh;
+    
+}
+.cadre3{
+        border-left: 0px;
+        border-bottom: 0px;
+        height: 90vh;
+       
+
+}
+
+#bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content{
+    width: 90%;
+    display: block;
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 1vh;
+   
+}
+.boutons{
+    display: block;
+    margin: auto;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+#message_contact,
+#message_supprimer,
+#message_compte,
+#message_connexion,#message_technicien{
+    position: fixed;
+    height: 30vh;
+    width: 30vw;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 2px #0005;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #00587D 64%, #009FE3 100%);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 2px #0005;
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+}
